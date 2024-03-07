@@ -1,5 +1,5 @@
-var textInput = 'helloooo pumpkin';
-const vowels = ['e', 'o', 'u', 'i', 'k'];
+var textInput = 'a whale of a deal!';
+const vowels = ['e', 'o', 'u', 'i','a'];
 let resultArray = [];
 
 for (let a=0; a<textInput.length; a++){
@@ -11,6 +11,8 @@ for (let a=0; a<textInput.length; a++){
         if (text === vowel){
             console.log('vowel in string is: ' + vowel);
             console.log(text , '  position is: ' , i);
+            resultArray.push(text);
+
         }
             if (text === 'e'){
                 text = 'e';
