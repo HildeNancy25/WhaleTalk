@@ -28,8 +28,10 @@ console.log(resultArray);
 console.log(textInput.length);
 console.log(resultArray.length);
 
-// let resultString = resultArray.toUpperCase();
-// console.log(resultString.join('  '));
+resultString = resultArray.join('  ');
+resultString.toUpperCase();
+console.log(resultString.toUpperCase());
+
 
 
 
