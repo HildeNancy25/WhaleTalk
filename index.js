@@ -13,16 +13,17 @@ for (let a=0; a<textInput.length; a++){
             console.log(text , '  position is: ' , i);
             resultArray.push(text);
 
-        }
+        
             if (text === 'e'){
                 text = 'e';
                 resultArray.push(text);
-            } 
+            }
             
             if (text === 'u'){
                 text = 'u';
                 resultArray.push(text);
             }
+        }
     }
 }
     
